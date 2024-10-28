@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição em Curso - EduOnline</title>
+    <link rel="stylesheet" href="Inscricao.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">EduOnline</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="inscricao">
+            <h2>Inscrição em Curso</h2>
+            <form>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="curso">Selecione o Curso:</label>
+                <select id="curso" name="curso" required>
+                    <option value="programacao">Curso de Programação</option>
+                    <option value="marketing">Curso de Marketing Digital</option>
+                </select>
+
+                <button type="submit" class="btn">Confirmar Inscrição</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contato: contato@eduonline.com | &copy; 2024 EduOnline</p>
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <br><br><br>
+    </footer>
+
+</body>
+</html>
